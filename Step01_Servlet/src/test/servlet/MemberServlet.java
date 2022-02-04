@@ -43,7 +43,7 @@ protected void service(HttpServletRequest req, HttpServletResponse resp) throws 
 				pw.println("<th>이름</th>");
 				pw.println("<th>주소</th>");		
 			pw.println("</tr>");
-		pw.println("/thead");
+		pw.println("</thead>");
 		pw.println("<tbody>");
 		//반복문 돌면서 회원 목록을 출력해 보세요.
 		for(MemberDto tmp:list) {
