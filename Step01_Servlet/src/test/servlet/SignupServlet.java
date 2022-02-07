@@ -19,7 +19,7 @@ protected void service(HttpServletRequest req, HttpServletResponse resp) throws 
 	String email=req.getParameter("email");
 	//성별
 	String gender=req.getParameter("gender");
-	//취미(선택한 취미가 없으면 null
+	//취미(선택한 취미가 없으면 null 이 리턴된다)
 	String[] hobby=req.getParameterValues("hobby");
 	//직업
 	String job=req.getParameter("job");
