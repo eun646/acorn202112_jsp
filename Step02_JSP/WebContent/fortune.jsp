@@ -13,5 +13,22 @@
 <body>
 	<h1>오늘의 운세 페이지</h1>
 	<p>오늘의 운세: <%=fortuneToday %></p>
+	<%for(int i=0; i<10; i++){%>
+		<p>Hello</p>
+	<%} %>
+	
+	
+	
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+>>>>>>> branch 'master' of https://github.com/oli999/acorn202112_jsp.git
